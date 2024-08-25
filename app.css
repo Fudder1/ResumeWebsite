@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3fdfd; /* Background color of the body */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc; /* Border to define the container */
+    background-color: rgb(255, 255, 255); 
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.heading {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding: 20px;
+    background-color: #ffffff; /* Light gray background */
+    border-radius: 10px 10px 0 0;
+}
+
+.heading h1 {
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+.heading p {
+    margin: 5px 0;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    font-size: 22px;
+}
+
+.work-experience, .education, .personal-projects {
+    margin-bottom: 20px;
+}
+
+.work-experience h3, .personal-projects h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.work-experience p, .personal-projects p, .education p {
+    margin: 0;
+}
+
+.work-experience ul, .personal-projects ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.skills {
+    margin-top: 10px;
+}
+
+.skills span {
+    margin-right: 5px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

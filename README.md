@@ -3,4 +3,4 @@ This repository is for a personal project where I create a website for my person
 
 Current skills demonstrated: HTML, CSS
 
-
+Tool(s) used: VSCode, hostinger, Github

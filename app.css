@@ -1,12 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif; /* Times New Roman font */
     margin: 0;
     padding: 0;
-    background-color: #f3fdfd; /* Background color of the body */
+    background-color: #c0e1ff; /* Background color of the body */
     color: #333;
-    line-height: 1.6;
+    line-height: 1.4; /* Shortened line spacing */
 }
 
+/* Container with Fade-In Animation */
 .container {
     max-width: 900px;
     margin: 20px auto;
@@ -14,30 +15,46 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 1px solid #ccc; /* Border to define the container */
-    background-color: rgb(255, 255, 255); 
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    opacity: 0; /* Initial state for animation */
+    animation: fadeIn 0.5s ease-in forwards; /* Apply fade-in animation */
 }
 
-h1, h2, h3 {
-    color: #333;
+/* Fade-In Keyframes */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
+/* Heading Section */
 .heading {
     text-align: center;
     border-bottom: 2px solid #333;
     padding: 20px;
-    background-color: #ffffff; /* Light gray background */
+    background-color: #f0f0f0; /* Light gray background */
     border-radius: 10px 10px 0 0;
 }
 
 .heading h1 {
-    margin-bottom: 5px;
-    font-size: 28px;
+    margin-bottom: 10px;
+    font-size: 36px; /* Larger font size for the name */
 }
 
-.heading p {
-    margin: 5px 0;
+.heading .contact-info {
+    font-size: 16px; /* Standard font size for contact info */
 }
 
+.heading .contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.heading .contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
 .section {
     margin-top: 30px;
 }
@@ -67,14 +84,16 @@ h1, h2, h3 {
     margin-left: 20px;
 }
 
+/* Skills Section */
 .skills {
     margin-top: 10px;
 }
 
-.skills span {
-    margin-right: 5px;
+.skills p {
+    margin: 5px 0;
 }
 
+/* Links Styling */
 a {
     color: #0066cc;
     text-decoration: none;

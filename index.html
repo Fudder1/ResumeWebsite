@@ -10,55 +10,98 @@
     <div class="container">
         <!-- Heading Section -->
         <div class="heading">
-            <h1>Your Name</h1>
+            <h1>Kevin Budzisch</h1>
             <div class="contact-info">
-                <a href="mailto:your.email@example.com">your.email@example.com</a> |
-                <a href="https://yourwebsite.com">https://yourwebsite.com</a> |
-                <a href="https://maps.google.com/?q=Your+Address">Your Address, City, State, ZIP</a>
+                <a href="mailto:kevbud@yahoo.com">kevbud@yahoo.com</a> |
+                <a href="https://www.linkedin.com/in/kbudzisch/">LinkedIn</a> |
+                <a href="https://github.com/Fudder1">Github</a> | Pinellas Park, FL
             </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section education">
+            <h2>Education</h2>
+            <p><strong>Florida State University - 2022</strong></p>
+            <p>Bachelor of Science in Mechanical Engineering with emphasis on Programming.</p>
         </div>
 
         <!-- Work Experience Section -->
         <div class="section work-experience">
             <h2>Work Experience</h2>
             <div>
-                <h3>Position - Company</h3>
-                <p>January 2020 - Present</p>
+                <h3>Collins Aerospace / Raytheon Intelligence & Space | Hardware Quality Engineer | Largo, FL</h3>
+                <p>August 2022 - Present</p>
                 <ul>
-                    <li>Responsibility 1</li>
-                    <li>Responsibility 2</li>
-                    <li>Responsibility 3</li>
+                    <li>Review test procedures, drawings, change notices, and assembly instructions to ensure product is built and performs in accordance with IPC/JSTD/MIL/AS9100 standards.</li>
+                    <li>Conduct review of physical hardware, supplier data, test data, and contracts to ensure product is built and performs in accordance with MIL standards and meets contractual obligations.</li>
+                    <li>Facilitate the selloff of hardware to DCMA (Defense Contract Management Agency) contacts that can exceed 5,6, and even 7 figure dollar amounts.</li>
+                    <li>Perform weekly, quarterly, and yearly audits to ensure factory is up to industry standards and implement corrective action as required.</li>
+                    <li>Have a deep knowledge and understanding of the manufacturing process and tools such as ICMS, PRISM, APEX, Microsoft Office, Tableau to perform daily tasks.</li>
+                    <li>Work on several interdisciplinary teams consisting of engineering and operations personnel working towards a common goal on several specific government programs. Teams often have daily, weekly, and monthly meetings.</li>
+                    <li>Maintain professional communications with external and internal recipients from military contacts and DCMA contacts, to peers and upper management. </li>
+                    <li>Report weekly metrics during support staff meetings on WIP, Defect Trends, and RTV Material using Tableau, CMES, and PRISM.</li>
                 </ul>
             </div>
-            <!-- Add more work experiences as needed -->
+
+            <div>
+                <h3>Independent E-Commerce | Entrepreneur/Self-Employed | Tallahassee, FL</h3>
+                <p>Aug 2019 -Sept 2022</p>
+                <ul>
+                    <li>Entrepreneur with direct-to-consumer sales experience of exclusive footwear, clothing, and collectibles generating over $150,000 in sales over several platforms such as Ebay, StockX, and Mercari.</li>
+                    <li>Use of bespoke software and tools for purchasing limited items. Constant creation and teardown of Virtual Machine (VMs) instances using Google Cloud Platform (GCP) running Windows Server 2012 or newer Datacenter OS to utilize the software and tools 24/7 in the cloud.</li>
+                    <li>Use of computer networking skills to securely connect to and configure VMs using the GCP Compute dashboard and Microsoft Remote Desktop Protocol (RDP).</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section skills">
+            <h2>Skills</h2>
+            <p><strong>Cloud:</strong> GCP, AWS</p>
+            <p><strong>Automation:</strong> Python, Bash</p>
+            <p><strong>Containerization:</strong> Docker, Kubernetes (K8s)</p>
+            <p><strong>OS:</strong> Git, Github, Agile, Scrum, Jira, Microsoft Office, Kanban boards</p>
+            <p><strong>Some Familiarity With:</strong> C, Arduino, MATLAB, HTML, CSS, SQL</p>
+            <!-- Add more skills as needed -->
         </div>
 
         <!-- Personal Projects Section -->
         <div class="section personal-projects">
             <h2>Personal Projects</h2>
             <div>
-                <h3>Project Name</h3>
-                <p>Short description of the project.</p>
-                <p><strong>Technologies:</strong> Tech1, Tech2, Tech3</p>
-                <p><a href="https://projectlink.com">View Project</a></p>
+                <h3>Personal Resume/Portfolio Website Project</h3>
+                <li>Created a Resume/Portfolio website to showcase professional achievements, projects, work history, and skills. </li>
+                <li>The webpage is designed in HTML with resume like flow and functionality in mind. </li>
+                <li>The webpage is styled with CSS for a modern, appealing design. </li>
+
+                <p><strong>Technologies:</strong> HTML, CSS</p>
+                <p><a href="https://projectlink.com">*Needs an update*</a></p>
+            </div>
+
+            <div>
+                <h3>Signal and Motion Activated Gate Project </h3>
+                <ul>
+                    <li>Using an Arduino, breadboard, stepper motors, 3D printed parts, and the various hardware required, programmed a motion activated gate to only open after a certain IR signal has been received.</li>
+                    <li>An Infrared (IR) receiver is contantly monitoring for IR signals. If a certain wavelength of Infrared (IR) waves is received by an IR receiver, a stepper motor will activate to unlock the gate. If an incorrect wavelength is received nothing is done, and the gate is still on standby.</li>
+                    <li>When the gate is unlocked, a motion detector will monitor for movement. If movement is detected, a stepper motor will activate to open the gate. If no motion is detected when the gate is unlocked for 5 seconds, the gate will lock.</li>
+                    <li>An “Emergency Stop” button was implemented on the breadboard which will light up the appropriate LED, and stop any movement of the gate. It will hold this status until the button is pressed again, which will release movement.</li>
+                    <li>An “Emergency Open” button was implemented on the breadboard which will light up the appropriate LED, open the gate, and keep the gate open until the button is pressed again.</li>
+                </ul>
+                <p><strong>Technologies:</strong> Arduino programming, Mechatronics, Electrical and Mechanical Design</p>
+                <p><a href="https://www.youtube.com/watch?v=40p8YZrm4vk">Demonstration Video</a></p>
+                <p><a href="https://www.youtube.com/watch?v=aiH-I9sI6yg">Code Explanation Video</a></p>
+            </div>
+
+            <div>
+                <h3> Stirling Engine Modelling and Manufacturing Project</h3>
+                <ul>
+                    <li>Using PTC Creo, model and animate the various parts used in fabrication of a small Stirling engine.</li>
+                    <li>Under supervision in a machine shop, Fabricate the various parts using machining equipment including but not limited to a manual milling machine, drilling machine, lathe, Computer Numerical Control (CNC) machine, and a hydraulic press. </li>
+                    <li>Demonstrate understanding of machining principles, machining tools, and appropriate Personal protective equipment.</li>
+                </ul>
+                <p><strong>Technologies:</strong> CAD/3D modelling,Mechanical Design, Machining, Health and Safety</p>
             </div>
             <!-- Add more projects as needed -->
-        </div>
-
-        <!-- Education Section -->
-        <div class="section education">
-            <h2>Education</h2>
-            <p><strong>University Name</strong></p>
-            <p>Major: Your Major</p>
-            <p>GPA: Your GPA</p>
-            <p>Dates: Start Date - End Date</p>
-        </div>
-
-        <!-- Skills Section -->
-        <div class="section skills">
-            <h2>Skills</h2>
-            <p>Skill 1, Skill 2, Skill 3, Skill 4, Skill 5</p>
-            <!-- Add more skills as needed -->
         </div>
     </div>
 </body>

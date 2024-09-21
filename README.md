@@ -1,6 +1,7 @@
-# ResumeWebsite
-This repository is for a personal project where I create a website for my personal resume. The idea is to have my resume accessable by anyone with an internet connection. This website is to be updated as needed. The update log is used to keep track of what changes have been made.
+# Resume/Porfolio Website
+Created a Resume/Portfolio website to showcase professional achievements, projects, work history, and skills.
+The webpage is designed in HTML and styled with CSS for a modern, stylish look.
+The website is hosted using AWS S3 for retrievable storage and AWS Route 53 to manage DNS.
 
-Current skills demonstrated: HTML, CSS
+Technologies: AWS S3, AWS Route 53, HTML, CSS, Networking
 
-Tool(s) used: VSCode, hostinger, Github
